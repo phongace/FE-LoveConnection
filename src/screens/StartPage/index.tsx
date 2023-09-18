@@ -6,7 +6,7 @@ const StartPage = () => {
   return (
     <View style={styles.container}>
       <ImageBackground
-        source={require('src/assets/images/Welcome.png')}
+        source={require('src/assets/images/background-start.png')}
         resizeMode="cover"
         style={styles.container}>
         <Text>abc</Text>
