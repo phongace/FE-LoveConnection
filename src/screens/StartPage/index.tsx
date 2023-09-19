@@ -1,5 +1,5 @@
 import React from 'react';
-import { ImageBackground, View } from 'react-native';
+import { ImageBackground, Text, View } from 'react-native';
 import SwipeButton from './components/SwipeButton';
 import { styles } from './style';
 
@@ -10,6 +10,7 @@ const StartPage = () => {
         source={require('src/assets/images/background-start.png')}
         resizeMode="cover"
         style={styles.container}>
+        <Text style={styles.title}>Ở đây chúng tôi có các câu hỏi</Text>
         <SwipeButton />
       </ImageBackground>
     </View>
