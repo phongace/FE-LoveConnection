@@ -1,5 +1,6 @@
 import React from 'react';
-import { ImageBackground, Text, View } from 'react-native';
+import { ImageBackground, View } from 'react-native';
+import SwipeButton from './components/SwipeButton';
 import { styles } from './style';
 
 const StartPage = () => {
@@ -9,7 +10,7 @@ const StartPage = () => {
         source={require('src/assets/images/background-start.png')}
         resizeMode="cover"
         style={styles.container}>
-        <Text>abc</Text>
+        <SwipeButton />
       </ImageBackground>
     </View>
   );
