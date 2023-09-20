@@ -1,0 +1,17 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/Playfair-Bold.ttf",
+      "sha1": "833c2b70c742b12b1be9461480c8853ddb663991"
+    },
+    {
+      "path": "src/assets/fonts/Playfair-Medium.ttf",
+      "sha1": "0670023e90cdb6819b62ee4c60856e9a07bafd13"
+    },
+    {
+      "path": "src/assets/fonts/Playfair-Regular.ttf",
+      "sha1": "27948bdf40b983e7e7405ae9dc101abc0c455c99"
+    }
+  ]
+}
