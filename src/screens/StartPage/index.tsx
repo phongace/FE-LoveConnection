@@ -10,7 +10,7 @@ const StartPage = () => {
         source={require('src/assets/images/background-start.png')}
         resizeMode="cover"
         style={styles.container}>
-        <Text style={styles.title}>Ở đây chúng tôi có các câu hỏi</Text>
+        <Text style={styles.title}>Kết nối trái tim qua những câu hỏi</Text>
         <SwipeButton />
       </ImageBackground>
     </View>
