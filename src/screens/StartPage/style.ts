@@ -18,7 +18,7 @@ export const styles = StyleSheet.create({
     color: COLOR.secondary,
     fontSize: 28,
     letterSpacing: 0.2,
-    fontFamily: 'Playfair-SemiBold',
+    fontFamily: 'SemiBold',
   },
   subtitle: {
     width: '90%',
@@ -28,6 +28,6 @@ export const styles = StyleSheet.create({
     color: COLOR.gray,
     lineHeight: 18,
     letterSpacing: 0.2,
-    fontFamily: 'Playfair-Medium',
+    fontFamily: 'Medium',
   },
 });

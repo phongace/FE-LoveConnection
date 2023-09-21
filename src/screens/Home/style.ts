@@ -32,11 +32,13 @@ export const styles = StyleSheet.create({
     height: 18,
   },
   hiText: {
-    fontStyle: 'italic',
     fontWeight: '500',
+    fontFamily: 'MediumItalic',
+    letterSpacing: 0.5,
   },
   title: {
-    fontSize: 24,
-    fontFamily: 'Playfair-Bold',
+    fontSize: 22,
+    fontFamily: 'Bold',
+    letterSpacing: 0.2,
   },
 });

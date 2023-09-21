@@ -41,6 +41,6 @@ export const styles = StyleSheet.create({
     color: COLOR.secondary,
     fontSize: 16,
     zIndex: 2,
-    fontFamily: 'Playfair-Medium',
+    fontFamily: 'Medium',
   },
 });
