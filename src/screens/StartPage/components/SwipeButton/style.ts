@@ -1,6 +1,5 @@
 import { StyleSheet } from 'react-native';
 import COLOR from 'src/constants/colors';
-import { WINDOW_WIDTH } from 'src/utils/dimensions';
 
 const BUTTON_HEIGHT = 60;
 
@@ -8,7 +7,7 @@ export const styles = StyleSheet.create({
   swipeContainer: {
     backgroundColor: 'rgba(255, 255, 255, 0.2)',
     height: BUTTON_HEIGHT,
-    width: WINDOW_WIDTH - 40,
+    width: '100%',
     position: 'absolute',
     bottom: 30,
     left: 20,
@@ -42,5 +41,6 @@ export const styles = StyleSheet.create({
     color: COLOR.secondary,
     fontSize: 16,
     zIndex: 2,
+    fontFamily: 'Playfair-Medium',
   },
 });

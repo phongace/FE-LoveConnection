@@ -182,7 +182,7 @@ const SwipeButton = () => {
         />
       </PanGestureHandler>
       <Animated.Text style={[styles.swipeText, AnimatedStyles.swipeText]}>
-        Let's start
+        Vuốt để bắt đầu
       </Animated.Text>
     </View>
   );

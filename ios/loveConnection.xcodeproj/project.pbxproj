@@ -17,6 +17,7 @@
 		6F6A30D6139144A790B103ED /* Playfair-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F980133E10440479D3F3CB9 /* Playfair-Bold.ttf */; };
 		BF7AB9E093A242FFB7EDC488 /* Playfair-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4F78E348E01E4660BCCF3E10 /* Playfair-Medium.ttf */; };
 		AFF7E139F9164BFE94139EC7 /* Playfair-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B36A0E242A344661871D51C5 /* Playfair-Regular.ttf */; };
+		372A2D3D27154B0CB8510BF6 /* Playfair-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 608A42C0066944F88B942969 /* Playfair-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		8F980133E10440479D3F3CB9 /* Playfair-Bold.ttf */ = {isa = PBXFileReference; name = "Playfair-Bold.ttf"; path = "../src/assets/fonts/Playfair-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		4F78E348E01E4660BCCF3E10 /* Playfair-Medium.ttf */ = {isa = PBXFileReference; name = "Playfair-Medium.ttf"; path = "../src/assets/fonts/Playfair-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		B36A0E242A344661871D51C5 /* Playfair-Regular.ttf */ = {isa = PBXFileReference; name = "Playfair-Regular.ttf"; path = "../src/assets/fonts/Playfair-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		608A42C0066944F88B942969 /* Playfair-SemiBold.ttf */ = {isa = PBXFileReference; name = "Playfair-SemiBold.ttf"; path = "../src/assets/fonts/Playfair-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +163,7 @@
 				8F980133E10440479D3F3CB9 /* Playfair-Bold.ttf */,
 				4F78E348E01E4660BCCF3E10 /* Playfair-Medium.ttf */,
 				B36A0E242A344661871D51C5 /* Playfair-Regular.ttf */,
+				608A42C0066944F88B942969 /* Playfair-SemiBold.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				6F6A30D6139144A790B103ED /* Playfair-Bold.ttf in Resources */,
 				BF7AB9E093A242FFB7EDC488 /* Playfair-Medium.ttf in Resources */,
 				AFF7E139F9164BFE94139EC7 /* Playfair-Regular.ttf in Resources */,
+				372A2D3D27154B0CB8510BF6 /* Playfair-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

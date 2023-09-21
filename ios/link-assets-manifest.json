@@ -12,6 +12,10 @@
     {
       "path": "src/assets/fonts/Playfair-Regular.ttf",
       "sha1": "27948bdf40b983e7e7405ae9dc101abc0c455c99"
+    },
+    {
+      "path": "src/assets/fonts/Playfair-SemiBold.ttf",
+      "sha1": "34e3b5e50340b6b1c5aff95c9202cfe662fd1d82"
     }
   ]
 }
