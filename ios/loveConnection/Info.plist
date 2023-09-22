@@ -53,11 +53,11 @@
 	<false/>
 	<key>UIAppFonts</key>
 	<array>
-		<string>Bold.ttf</string>
-		<string>Medium.ttf</string>
-		<string>MediumItalic.ttf</string>
-		<string>Regular.ttf</string>
-		<string>SemiBold.ttf</string>
+		<string>Assistant-Bold.ttf</string>
+		<string>Assistant-Light.ttf</string>
+		<string>Assistant-Medium.ttf</string>
+		<string>Assistant-Regular.ttf</string>
+		<string>Assistant-SemiBold.ttf</string>
 	</array>
 </dict>
 </plist>

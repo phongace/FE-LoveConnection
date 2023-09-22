@@ -1,10 +1,8 @@
 const COLOR = {
-  primary: '#E8A0BF',
-  secondary: '#B76E79',
+  primary: '#1D0A3C',
+  secondary: '#E8A0BF',
   white: '#FFFFFF',
-  black: '#000000',
-  beige: '#FFF3E2',
-  gray: '#9E9FA5',
+  card: '#2F245B',
 };
 
 export default COLOR;
