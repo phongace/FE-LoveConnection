@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useRef, useState } from 'react';
+import React, { useEffect } from 'react';
 import {
   Animated,
   FlatList,
@@ -43,26 +43,7 @@ const TOPICS = [
 const VISIBLE_ITEMS = 3;
 
 const Home = () => {
-  const { handleSession } = useHome();
-
-  const scrollXIndex = useRef(new Animated.Value(0)).current;
-  const scrollXAnimated = useRef(new Animated.Value(0)).current;
-
-  const [index, setIndex] = useState(0);
-  const setActiveIndex = useCallback(
-    (activeIndex: any) => {
-      scrollXIndex.setValue(activeIndex);
-      setIndex(activeIndex);
-    },
-    [scrollXIndex],
-  );
-
-  useEffect(() => {
-    Animated.spring(scrollXAnimated, {
-      toValue: scrollXIndex,
-      useNativeDriver: true,
-    }).start();
-  });
+  const { handleSession, scrollXAnimated, index, setActiveIndex } = useHome();
 
   const renderHeader = () => (
     <View style={styles.flexCenter}>
@@ -105,10 +86,24 @@ const Home = () => {
             flex: 1,
             justifyContent: 'center',
             padding: 20,
-            height: 300,
+            height: 320,
           }}
           scrollEnabled={false}
           removeClippedSubviews={false}
+          CellRendererComponent={({
+            item,
+            index,
+            children,
+            style,
+            ...props
+          }) => {
+            const newStyle = [style, { zIndex: TOPICS.length - index }];
+            return (
+              <View style={newStyle} {...props}>
+                {children}
+              </View>
+            );
+          }}
           renderItem={({ item, index }) => {
             const { title, total, url } = item;
             const inputRange = [index - 1, index, index + 1];
@@ -128,7 +123,7 @@ const Home = () => {
               <Animated.View
                 style={{
                   position: 'absolute',
-                  left: -10,
+                  left: -140,
                   opacity,
                   transform: [
                     {
