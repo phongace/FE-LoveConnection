@@ -1,14 +1,15 @@
 import React from 'react';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
-import Home from 'src/screens/Home';
+import NavigationStack from 'src/navigation';
+import StartPage from 'src/screens/StartPage';
 
-function App(): JSX.Element {
+const App = () => {
   return (
     <GestureHandlerRootView style={{ flex: 1 }}>
-      {/* <StartPage /> */}
-      <Home />
+      {/* <NavigationStack /> */}
+      <StartPage />
     </GestureHandlerRootView>
   );
-}
+};
 
 export default App;

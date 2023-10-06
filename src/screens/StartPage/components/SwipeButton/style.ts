@@ -9,7 +9,7 @@ export const styles = StyleSheet.create({
     height: BUTTON_HEIGHT,
     width: '100%',
     position: 'absolute',
-    bottom: 30,
+    bottom: 80,
     left: 20,
     borderRadius: 36,
     alignItems: 'center',
@@ -20,7 +20,7 @@ export const styles = StyleSheet.create({
     left: 0,
     height: BUTTON_HEIGHT,
     borderRadius: BUTTON_HEIGHT,
-    backgroundColor: COLOR.primary,
+    backgroundColor: COLOR.secondary,
   },
   icon: {
     width: 40,

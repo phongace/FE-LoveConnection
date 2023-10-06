@@ -11,6 +11,26 @@ const StartPage = () => {
         resizeMode="cover"
         style={styles.imageContainer}>
         <View style={styles.textContainer}>
+          <Text
+            style={{
+              fontSize: 90,
+              fontWeight: '900',
+              textTransform: 'uppercase',
+              color: '#FFFFFF',
+            }}>
+            Love
+          </Text>
+          <Text
+            style={{
+              fontSize: 36,
+              fontWeight: '900',
+              textTransform: 'uppercase',
+              marginTop: -10,
+              letterSpacing: 2.8,
+              color: '#FFFFFF',
+            }}>
+            Connection
+          </Text>
           <Text style={styles.title}>Kết nối sâu hơn</Text>
           <Text style={styles.subtitle}>
             Cùng ngồi xuống và tìm hiểu đối phương với kho tàng câu hỏi của

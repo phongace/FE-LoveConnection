@@ -18,6 +18,7 @@ export const styles = StyleSheet.create({
   hiText: {
     fontFamily: 'Assistant-Regular',
     color: COLOR.white,
+    fontSize: 16,
   },
   iconContainer: {
     width: 34,
@@ -29,8 +30,8 @@ export const styles = StyleSheet.create({
   },
   title: {
     marginTop: 40,
-    marginBottom: 25,
-    fontSize: 16,
+    marginBottom: 10,
+    fontSize: 18,
     fontFamily: 'Assistant-Medium',
     letterSpacing: 0.1,
     color: COLOR.white,
@@ -56,7 +57,7 @@ export const styles = StyleSheet.create({
     resizeMode: 'cover',
   },
   cardTitle: {
-    fontSize: 16,
+    fontSize: 18,
     fontFamily: 'Assistant-Medium',
     letterSpacing: 0.1,
     color: COLOR.white,
@@ -69,7 +70,6 @@ export const styles = StyleSheet.create({
   },
   cardQuestionTitle: {
     color: COLOR.white,
-    fontSize: 12,
     fontFamily: 'Assistant-Regular',
   },
   cardButton: {
